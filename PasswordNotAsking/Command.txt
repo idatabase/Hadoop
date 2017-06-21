@@ -1,0 +1,11 @@
+Avoid entering password when launching Hadoop
+
+1. Generate ssh key without password
+
+   ssh-keygen -t rsa -P ""
+
+2. press Enter (when you're prompted to "Enter a file in which to save the key")
+
+3. Copy id_rsa.pub to authorized-keys
+
+   cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
