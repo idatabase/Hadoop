@@ -9,3 +9,7 @@ Avoid entering password when launching Hadoop
 3. Copy id_rsa.pub to authorized-keys
 
    cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+   
+   
+screenshot : https://raw.githubusercontent.com/idatabase/Hadoop/master/PasswordNotAsking/ScreenShot.png
+
