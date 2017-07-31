@@ -1,3 +1,3 @@
 # Hadoop
 
-Useful scripts for Hadoop and Linux system 
+Useful scripts for Hadoop and Linux system. 
